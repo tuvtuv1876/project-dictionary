@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
+import "./Dictionary.css";
 
-export default function AppBody() {
-  const [key, setKey] = useState("");
+export default function Dictionary() {
+  const [key, setKey] = useState([]);
+  const [searchResults, setSearchResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
-    console.log(response.data[1]);
+    setSearchResults(response.data[0]);
   }
 
   function handleSubmit(event) {
@@ -22,7 +24,7 @@ export default function AppBody() {
     setKey(event.target.value);
   }
   return (
-    <main className="AppBody">
+    <main className="Dictionary">
       <form onSubmit={handleSubmit}>
         <div className="row">
           <div className="col-9">
@@ -41,6 +43,7 @@ export default function AppBody() {
           </div>
         </div>
       </form>
+      <Results className="Results" results={searchResults} />
     </main>
   );
 }

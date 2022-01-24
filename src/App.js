@@ -1,5 +1,5 @@
 import React from "react";
-import AppBody from "./AppBody";
+import Dictionary from "./Dictionary";
 import "./App.css";
 
 export default function App() {
@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">Welcome to Tu Vy's Dictionary</header>
-        <AppBody />
+        <Dictionary />
         <footer className="App-footer mt-5">coded by tu vy ho</footer>
       </div>
     </div>

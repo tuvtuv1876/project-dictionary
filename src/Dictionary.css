@@ -1,0 +1,8 @@
+.Dictionary {
+  font-size: 22px;
+  padding: 40px 30px 40px 30px;
+}
+
+.Dictionary .Results {
+  text-align: left;
+}
