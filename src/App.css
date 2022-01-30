@@ -1,9 +1,31 @@
 .App {
   text-align: center;
   font-size: 32px;
-  margin: 40px 30px;
+  margin: 30px 30px;
+}
+
+.App h1 {
+  font-size: 32px;
+  opacity: 0.7;
+  font-family: "Delius Unicase", cursive;
+}
+
+.App h4 {
+  font-size: 18px;
+  opacity: 0.8;
+  font-weight: 400;
 }
 
 .App-footer {
-  font-size: 16px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.App-footer a {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.App-footer a:hover {
+  color: #552e5a;
 }

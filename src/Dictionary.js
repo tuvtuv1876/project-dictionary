@@ -34,11 +34,7 @@ export default function Dictionary() {
             />
           </div>
           <div className="col-3">
-            <input
-              type="submit"
-              className="btn btn-primary w-100"
-              value="Search"
-            />
+            <input type="submit" className="btn w-100" value="Search" />
           </div>
         </div>
       </form>

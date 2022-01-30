@@ -1,8 +1,13 @@
 .Dictionary {
   font-size: 22px;
-  padding: 40px 30px 40px 30px;
+  padding: 10px 30px 0px 30px;
 }
 
 .Dictionary .Results {
   text-align: left;
+}
+
+.Dictionary .btn {
+  background-color: #cf7979 !important;
+  color: #f5e1da;
 }
