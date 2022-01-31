@@ -51,21 +51,24 @@ export default function Dictionary() {
   if (loaded) {
     return (
       <main className="Dictionary">
-        <form onSubmit={handleSubmit}>
-          <div className="row">
-            <div className="col-9">
-              <input
-                type="search"
-                onChange={changeKey}
-                className="form-control w-100"
-              />
+        <section>
+          <h4 className="mb-4 mt-2">What word are you looking for?</h4>
+          <form onSubmit={handleSubmit}>
+            <div className="row">
+              <div className="col-9">
+                <input
+                  type="search"
+                  onChange={changeKey}
+                  className="form-control w-100"
+                />
+              </div>
+              <div className="col-3">
+                <input type="submit" className="btn w-100" value="Search" />
+              </div>
             </div>
-            <div className="col-3">
-              <input type="submit" className="btn w-100" value="Search" />
-            </div>
-          </div>
-        </form>
-        <h5 className="mt-2">word examples: unicorn, wine, yoga...</h5>
+          </form>
+          <h5 className="mt-2">word examples: unicorn, wine, yoga...</h5>
+        </section>
         <Results className="Results" results={searchResults} />
         <Photos photos={photos} />
       </main>

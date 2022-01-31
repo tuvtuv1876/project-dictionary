@@ -8,19 +8,18 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <h1>Welcome to Tu Vy's Dictionary</h1>
-          <h4 className="mt-4">What word are you looking for?</h4>
         </header>
         <Dictionary />
         <footer className="App-footer mt-4">
-          coded by{" "}
+          open-source coded by{" "}
           <a
             href="https://github.com/tuvtuv1876/project-dictionary"
             alt="Tu Vy's Github"
             title="Tu Vy's Github"
           >
             tu vy ho
-          </a>{" "}
-          and hosted on{" "}
+          </a>
+          , hosted on{" "}
           <a
             href="https://app.netlify.com/sites/reverent-joliot-849a7b/overview"
             alt="Project on Netlify"

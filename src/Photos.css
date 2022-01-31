@@ -19,3 +19,13 @@
   color: black;
   opacity: 0.8;
 }
+
+@media (max-width: 600px) {
+  .Photos .col-4 {
+    width: 100%;
+  }
+
+  .Photos .pexelsLink {
+    text-align: left;
+  }
+}

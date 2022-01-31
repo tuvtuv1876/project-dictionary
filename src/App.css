@@ -12,12 +12,6 @@
   font-family: "Delius Unicase", cursive;
 }
 
-.App h4 {
-  font-size: 18px;
-  opacity: 0.8;
-  font-weight: 400;
-}
-
 .App-footer {
   font-size: 14px;
   opacity: 0.8;
@@ -32,4 +26,10 @@
 .App-footer a:hover {
   color: black;
   opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .App h1 {
+    font-size: 28px;
+  }
 }
