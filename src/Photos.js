@@ -12,13 +12,14 @@ export default function Photos(props) {
                 <a
                   href={photo.src.original}
                   target="_blank"
+                  rel="noreferrer"
                   title={photo.alt}
                   src={photo.photographer}
                 >
                   <img
                     className="img-fluid"
                     src={photo.src.landscape}
-                    title={photo.alt}
+                    alt={photo.alt}
                   />
                 </a>
               </div>
