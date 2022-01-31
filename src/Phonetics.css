@@ -1,22 +1,23 @@
 .Phonetics {
-  font-size: 20px;
-  opacity: 0.7;
+  font-size: 18px;
   margin-top: 15px;
+  line-height: 40px;
 }
 
 .Phonetics a {
-  border: 1px solid #552e5a;
-  border-radius: 18px;
-  padding: 3px 7px;
-  font-size: 16px;
-  transition: all 150ms ease-in-out;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  font-size: 14px;
+  color: #cf7979;
   line-height: 30px;
+  padding: 4px 8px;
+  margin-right: 20px;
   text-decoration: none;
-  margin-right: 15px;
+  transition: all 150ms ease-in-out;
 }
 
 .Phonetics a:hover {
-  background-color: #552e5a;
+  background-color: #cf7979;
   color: #f5e1da;
-  border: 1px solid #552e5a;
+  border: 1px solid #cf7979;
 }

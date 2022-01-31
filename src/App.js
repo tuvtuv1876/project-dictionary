@@ -13,8 +13,20 @@ export default function App() {
         <Dictionary />
         <footer className="App-footer mt-4">
           coded by{" "}
-          <a href="https://github.com/tuvtuv1876/project-dictionary" alt="">
+          <a
+            href="https://github.com/tuvtuv1876/project-dictionary"
+            alt="Tu Vy's Github"
+            title="Tu Vy's Github"
+          >
             tu vy ho
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://app.netlify.com/sites/reverent-joliot-849a7b/overview"
+            alt="Project on Netlify"
+            title="Project on Netlify"
+          >
+            netlify
           </a>
         </footer>
       </div>

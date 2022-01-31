@@ -11,3 +11,9 @@
   background-color: #cf7979 !important;
   color: #f5e1da;
 }
+
+.Dictionary h5 {
+  font-size: 12px;
+  opacity: 0.8;
+  text-align: left;
+}
